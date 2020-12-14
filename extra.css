@@ -1,0 +1,214 @@
+.header{
+    /*background-image: url(images/header.jpeg);*/
+    background-color: #e3cbc4;
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+img.one{
+    width: 60px;
+    padding-right: 20px;
+}
+img.two{
+    width: 60px;
+}
+
+.bio{
+    background-color: #cdb19a;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-right: 150px;
+}
+
+.head{
+    width:350px;
+    border-radius: 80%;
+    border-style: double;
+    border-color: black;
+    border-width: 8px;
+    margin: auto;
+}
+
+
+.intro{
+    display: grid;
+    grid-gap: 30px;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-areas: 'bio head';
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 100px;
+}
+
+.clubs{
+    display: grid;
+    grid-gap: 30px;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-areas: 'vol_1 vol_2 vol_3';
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 40px;
+}
+
+.club_1{
+    background-color: #918c89;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.peel{
+    width: 150px;
+    height: 80px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+.thirteen{
+    width: 320px;
+    height: 300px;
+    float: center;
+    border-radius: 30px;
+    padding-left: 18px;
+}
+
+.club_2{
+    background-color: #918c89;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.impact{
+    width: 150px;
+    height: 70px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+.fourteen{
+    width: 330px;
+    height: 285px;
+    float: center;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.club_3{
+    background-color: #918c89;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.edge{
+    width: 85px;
+    height: 85px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+.fifteen{
+    width: 350px;
+    height: 300px;
+    float: center;
+    border-radius: 20px;
+}
+
+.club_4{
+    background-color: #918c89;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.sixteen{
+    width: 350px;
+    height: 300px;
+    float: center;
+    border-radius: 20px;
+    padding-bottom: 25px;
+}
+
+body {
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.body1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 120px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+h3 {
+    color: #94847c;
+    font-size: 35px;
+}
+
+h4 {
+    color: black;
+    font-size: 22px;
+}
+
+h6 {
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+ul {
+    color: white;
+    font-size: 20px;
+}
+
+
+.heart {
+    width: 45px;
+    padding-left: 15px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b5aeaa;
+    position: fixed;
+    top: 0;
+    width: 1424px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: white;
+  }
+  
+  .active {
+    background-color: #cdb19a;
+  }

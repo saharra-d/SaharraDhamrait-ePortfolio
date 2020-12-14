@@ -1,0 +1,81 @@
+.header{
+    /*background-image: url(images/header.jpeg);*/
+    background-color: #e3cbc4;
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+img.one{
+    width: 60px;
+    padding-right: 20px;
+}
+img.two{
+    width: 60px;
+}
+
+body {
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 120px;
+    margin-bottom: 35px;
+}
+
+h3 {
+    color: #94847c;
+    font-size: 35px;
+}
+
+.space{
+    padding-top: 25px;
+}
+
+.sun{
+    width: 450px;
+    margin-left: 480px;
+    border-radius: 30%;
+    border-style: double;
+    border-color: black;
+    border-width: 8px;
+
+}
+
+.heart {
+    width: 45px;
+    padding-left: 15px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b5aeaa;
+    position: fixed;
+    top: 0;
+    width: 1424px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: white;
+  }
+  
+  .active {
+    background-color: #cdb19a;
+  }
