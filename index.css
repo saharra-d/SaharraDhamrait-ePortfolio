@@ -1,6 +1,6 @@
 .header{
     /*background-image: url(images/header.jpeg);*/
-    background-color: #e3cbc4;
+    background-color: #DDC2BB;
     background-size: cover;
     padding-top: 5px;
     padding-bottom: 20px;
@@ -16,39 +16,37 @@ img.two{
 }
 
 body {
-    background-image: url(images/background1.jpg);
+    padding-top: 160px;
+    background-color: #EBEBEB;
     background-size: cover;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 h1 {
-    color: pink;
+    color: black;
     font-size: 120px;
     margin-bottom: 35px;
 }
 
 h3 {
-    color: #94847c;
+    color: #6B584C;
     font-size: 35px;
 }
 
-.space{
-    padding-top: 25px;
-}
-
 .sun{
-    width: 450px;
-    margin-left: 480px;
+    margin-top: 80px;
+    margin-right: 20px;
+    width: 250px;
     border-radius: 30%;
     border-style: double;
     border-color: black;
     border-width: 8px;
-
 }
 
 .heart {
     width: 45px;
-    padding-left: 15px;
+    padding-left: 35px;
+    padding-top: 7px;
 }
 
 .nav ul {
@@ -60,6 +58,7 @@ h3 {
     position: fixed;
     top: 0;
     width: 1424px;
+    height: 60px;
   }
   
   li a {
@@ -70,12 +69,15 @@ h3 {
     text-decoration: none;
     float: right;
     font-size: 18px;
+    padding-top: 20px;
   }
   
   li a:hover:not(.active) {
-    background-color: white;
+    background-color: #EBEBEB;
+    height: 60px;
   }
   
   .active {
-    background-color: #cdb19a;
+    background-color: #DDC2BB;
+    height: 60px;
   }

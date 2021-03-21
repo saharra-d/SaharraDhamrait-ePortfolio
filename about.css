@@ -1,20 +1,3 @@
-.header{
-    /*background-image: url(images/header.jpeg);*/
-    background-color: #e3cbc4;
-    background-size: cover;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-}
-
-img.one{
-    width: 60px;
-    padding-right: 20px;
-}
-img.two{
-    width: 60px;
-}
-
 .bio{
     background-color: #cdb19a;
     padding-top: 1px;
@@ -22,7 +5,8 @@ img.two{
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 20px;
-
+    margin-right: 50px;
+    width: 840px;
 }
 
 .head{
@@ -31,7 +15,6 @@ img.two{
     border-style: double;
     border-color: black;
     border-width: 8px;
-    padding-left: 15px;
     margin: auto;
 }
 
@@ -46,12 +29,58 @@ img.two{
     padding-right: 100px;
 }
 
-.box{
-    background-color: #918c89;
+.exp{
+    display: grid;
+    grid-gap: 30px;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-areas: 'box1 box2 box3';
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 40px;
+}
+
+.box1{
+    background-color: #9D9795;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 15px;
-    margin-right: 850px;
+    border-radius: 20px;
+}
+.edge{
+    width: 85px;
+    height: 85px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.box2{
+    background-color: #9D9795;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+.vball1{
+    width: 130px;
+    height: 70px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.box3{
+    background-color: #9D9795;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+.oes{
+    width: 105px;
+    height: 95px;
+    float: right;
+    vertical-align: top;
     border-radius: 20px;
 }
 
@@ -66,7 +95,7 @@ img.two{
 }
 
 .vol_1{
-    background-color: #918c89;
+    background-color: #9D9795;
     padding-left: 15px;
 margin-right: 50px;
 border-radius: 20px;
@@ -80,7 +109,7 @@ border-radius: 20px;
 }
 
 .vol_2{
-    background-color: #918c89;
+    background-color: #9D9795;
     padding-left: 15px;
 margin-right: 50px;
 border-radius: 20px;
@@ -94,7 +123,7 @@ border-radius: 20px;
 }
 
 .vol_3{
-    background-color: #918c89;
+    background-color: #9D9795;
     padding-left: 15px;
 margin-right: 50px;
 border-radius: 20px;
@@ -107,23 +136,10 @@ border-radius: 20px;
     border-radius: 20px;
 }
 
-.vol_4{
-    background-color: #918c89;
-    padding-left: 15px;
-margin-right: 50px;
-border-radius: 20px;
-}
-
-.vol_5{
-    background-color: #918c89;
-    padding-left: 15px;
-    margin-right: 50px;
-    border-radius: 20px;
-}
 
 
 body {
-    background-image: url(images/background1.jpg);
+    background-color: #EBEBEB;
     background-size: cover;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -134,7 +150,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 120px;
     margin-bottom: 35px;
 }
@@ -142,9 +158,11 @@ h1 {
 h2 {
     font-size: 70px;
     margin-bottom: 20px;
+    padding-top: 25px;
 }
 h3 {
-    color: #94847c;
+    /*color: #94847c;*/
+    color: #6B584C;
     font-size: 35px;
 }
 
@@ -154,24 +172,38 @@ h4 {
 }
 
 h6 {
-    color: white;
+    color: black;
     font-size: 12px;
 }
 
 p {
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
 ul {
-    color: white;
+    color: black;
     font-size: 20px;
+}
+
+.con{
+    background-color: #DDC2BB;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+.learn {
+    color: black;
+    font-size: 20px;
+    text-align: center;
 }
 
 
 .heart {
     width: 45px;
-    padding-left: 15px;
+    padding-left: 35px;
+    padding-top: 7px;
 }
 
 .nav ul {
@@ -183,6 +215,7 @@ ul {
     position: fixed;
     top: 0;
     width: 1424px;
+    height: 60px;
   }
   
   li a {
@@ -193,12 +226,15 @@ ul {
     text-decoration: none;
     float: right;
     font-size: 18px;
+    padding-top: 20px;
   }
   
   li a:hover:not(.active) {
-    background-color: white;
+    background-color: #EBEBEB;
+    height: 60px;
   }
   
   .active {
-    background-color: #cdb19a;
+    background-color: #DDC2BB;
+    height: 60px;
   }
