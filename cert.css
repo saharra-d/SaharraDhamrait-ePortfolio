@@ -1,0 +1,128 @@
+
+
+.certs{
+    display: grid;
+    grid-gap: 30px;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-areas: 'cert1';
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 40px;
+}
+
+.cert1{
+    background-color: #9D9795;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.badge{
+    width: 115px;
+    height: 115px;
+    float: right;
+    vertical-align: top;
+}
+
+.creds {
+    color: black;
+    padding-left: 150px;
+}
+
+.creds:hover {
+    color: white;
+}
+
+.cert_img{
+    width:525px;
+    border-style: double;
+    border-color: black;
+    float: right;
+    margin-left: 50px;
+}
+
+body {
+    background-color: #EBEBEB;
+    background-size: cover;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.body1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    color: black;
+    font-size: 22px;
+}
+
+h6 {
+    color: black;
+    font-size: 12px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+.con{
+    background-color: #DDC2BB;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+.learn {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.heart {
+    width: 45px;
+    padding-left: 35px;
+    padding-top: 7px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b5aeaa;
+    position: fixed;
+    top: 0;
+    width: 1424px;
+    height: 60px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #EBEBEB;
+    height: 60px;
+  }
+  
+  .active {
+    background-color: #DDC2BB;
+    height: 60px;
+  }

@@ -136,6 +136,44 @@ border-radius: 20px;
     border-radius: 20px;
 }
 
+.hacks{
+    display: grid;
+    grid-gap: 30px;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-areas: 'vol_1 vol_2 vol_3';
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 40px;
+}
+
+.hack1{
+    background-color: #9D9795;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.CLC{
+    width: 160px;
+    height: 70px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.hack2{
+    background-color: #9D9795;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.york{
+    width: 140px;
+    height: 60px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
 
 
 body {
