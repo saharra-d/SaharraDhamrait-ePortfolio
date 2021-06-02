@@ -136,6 +136,20 @@ border-radius: 20px;
     border-radius: 20px;
 }
 
+.vol_4{
+    background-color: #9D9795;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.CLC2{
+    width: 155px;
+    height: 70px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
 .hacks{
     display: grid;
     grid-gap: 30px;
@@ -174,6 +188,20 @@ border-radius: 20px;
     border-radius: 20px;
 }
 
+.hack3{
+    background-color: #9D9795;
+    padding-left: 15px;
+margin-right: 50px;
+border-radius: 20px;
+}
+.turn{
+    width: 170px;
+    height: 65px;
+    float: right;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
 
 
 body {
@@ -207,6 +235,14 @@ h3 {
 h4 {
     color: black;
     font-size: 22px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+a {
+    color: white;
 }
 
 h6 {
